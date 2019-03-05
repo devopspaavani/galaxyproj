@@ -15,7 +15,7 @@ variable "aws_security_group_id" {
 }
 
 variable "key_name" {
-  default = "aws-sample"
+  default = "aws-popurivamsi"
 }
 
 variable "private_ip" {

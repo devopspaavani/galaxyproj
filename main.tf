@@ -14,7 +14,7 @@ resource "aws_instance" "centos_dev" {
   instance_type   = "t2.micro"
   vpc_security_group_ids = ["${var.aws_security_group_id}"]
   key_name         = "${var.key_name}"
-  associate_public_ip_address = false
+  associate_public_ip_address = true
   #private_ip = "${var.private_ip}"
   #ebs_optimized = true
   #disable_api_termination = true
